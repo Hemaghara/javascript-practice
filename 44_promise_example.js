@@ -26,7 +26,7 @@ const q=new Promise((res,rej)=>{
   console.log("first catch");
 })
 .then((data)=>{
-  console.log("second then")
+  console.log("second then");
 }).finally(()=>{
-  console.log("finaly")
+  console.log("finaly");
 })
