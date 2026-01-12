@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>session storage example</h2>
+
+      <br /><br />
+
+      <input type="text" placeholder="enter name" id="name" />
+      <br /><br />
+      <input type="email" placeholder="enter email" id="email" />
+
+      <br /><br />
+
+      <button onclick="saveData()">Save</button>
+      <button onclick="getData()">Get Data</button>
+      <button onclick="clearData()">Clear</button>
+      <hr />
+      <div class="output">
+        <p><strong>Name:</strong> <span id="showName"></span></p>
+        <p><strong>Email:</strong> <span id="showEmail"></span></p>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
