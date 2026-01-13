@@ -11,7 +11,7 @@ function greet(message){
   console.log(`${message},${this.name}`);
 }
 
-greet.call(person,'hello');
+greet.call(person,'hello')
 
 
 /*
